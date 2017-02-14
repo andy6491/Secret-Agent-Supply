@@ -1,0 +1,31 @@
+html {
+  font-size: 18px;
+  font-family: Roboto;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+/*header*/
+.company .container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.company img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.company span {
+  padding: 0.66rem 0;
+  font-size: 1rem;
+}
