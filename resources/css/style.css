@@ -145,7 +145,51 @@ footer {
 
 /*media*/
 @media only screen and (max-width: 1024px) {
-  .mobile-nav li {
+  .mobile-nav ul {
+    display: block;
+    text-align: center;
+  }
+
+    ul {
+      display: none;
+    }
+
+    .product {
+      width: 47%;
+    }
+
+    .glasses {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+  .headline {
+    padding: 1rem 2rem;
+    width: 10%;
+    bottom: 0rem;
+  }
+  .headline h4 {
+    font-size: 0.77rem;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+
+  .watch {
     display: none;
+  }
+
+  .product{
+    width: 97%;
+  }
+
+  .business-info {
+    display: block;
+  }
+
+  footer .container {
+    text-align: center;
   }
 }
